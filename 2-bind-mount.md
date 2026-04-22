@@ -36,9 +36,9 @@ Se muestra el template web descargado, en este caso el que se muestra en la imag
 
 <img width="1365" height="730" alt="image" src="https://github.com/user-attachments/assets/2c7dab77-d43e-4a59-b7b5-14b1ffaac533" />
 
-
 ### Eliminar el contenedor
-# COMPLETAR CON EL COMANDO
+
+docker rm -f nginx-bind
 
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
