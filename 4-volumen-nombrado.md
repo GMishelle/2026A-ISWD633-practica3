@@ -74,7 +74,9 @@ docker run -d --name server-drupal --publish published=9700,target=80 -v <nombre
 ### Ingrese al server-drupal y siga el paso a paso para la instalación.
 # COMPLETAR CON UNA CAPTURA DE PANTALLA DEL PASO 4
 
-<img width="835" height="574" alt="image" src="https://github.com/user-attachments/assets/a9d4e5be-b81e-4eba-a610-9569c0e7fba1" />
+
+<img width="605" height="430" alt="image" src="https://github.com/user-attachments/assets/2006b3ec-db69-4d78-ae27-d913923e866f" />
+
 <img width="846" height="510" alt="image" src="https://github.com/user-attachments/assets/b393612e-50b6-410f-84eb-ae852fcfdafa" />
 
 
