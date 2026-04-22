@@ -18,11 +18,16 @@ docker run -d --name <nombre contenedor> --mount type=bind,source=<ruta carpeta 
 ![Volúmenes](volumen-host.PNG)
 # COMPLETAR CON EL COMANDO
 
+docker run -d --name nginx-bind -P -v "C:\nginx\html:/usr/share/nginx/html" nginx:alpine
+
 ### ¿Qué sucede al ingresar al servidor de nginx?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+
+La ausencia de la página inicial de Nginx se debe a que el directorio original dentro del contenedor fue sustituido por uno proveniente del host mediante un bind mount. Al encontrarse vacía la carpeta html, el servidor no dispone de archivos para renderizar, por lo que la página no se muestra e incluso puede producirse un fallo.
 
 ### ¿Qué pasa con el archivo index.html del contenedor?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+
+El *index.html* que venía dentro del contenedor deja de intervenir, debido a que su ruta original fue sustituida por un directorio proveniente del host. Por ello, Nginx ya no toma en cuenta ese archivo interno y pasa a depender únicamente del contenido disponible en la nueva ubicación.
+
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
