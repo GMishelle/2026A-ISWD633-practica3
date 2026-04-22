@@ -93,7 +93,8 @@ docker run -d --name server-drupal --publish published=9700,target=80 -v <nombre
 # COMPLETAR CON EL DIAGRAMA SOLICITADO
 
 
-<img width="626" height="254" alt="image" src="https://github.com/user-attachments/assets/8b54bfb4-ed40-4848-a90c-e896d5962113" />
+
+<img width="650" height="240" alt="image" src="https://github.com/user-attachments/assets/4f1a8ef6-6440-49b9-add9-42983ff38dcd" />
 
 
 ### Eliminar un volumen específico
