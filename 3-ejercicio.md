@@ -12,7 +12,9 @@ En el esquema del ejercicio carpeta del contenedor (a) es /var/lib/mysql
 Ruta carpeta host: .../ejercicio3/db
 
 ### ¿Qué contiene la carpeta db del host?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+
+En el equipo anfitrión, la carpeta db funciona como el lugar donde MySQL guarda su información. Ahí se almacenan las bases de datos y otros archivos internos, lo que permite que los datos no se pierdan aunque el contenedor deje de existir o se vuelva a crear.
+
 
 ### Crear un contenedor con la imagen mysql:8  en la red net-wp, configurar las variables de entorno: MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER y MYSQL_PASSWORD
 # COMPLETAR CON EL COMANDO
