@@ -77,8 +77,8 @@ docker run -d --name server-drupal --publish published=9700,target=80 -v <nombre
 
 <img width="605" height="430" alt="image" src="https://github.com/user-attachments/assets/2006b3ec-db69-4d78-ae27-d913923e866f" />
 
-<img width="846" height="510" alt="image" src="https://github.com/user-attachments/assets/b393612e-50b6-410f-84eb-ae852fcfdafa" />
 
+<img width="621" height="370" alt="image" src="https://github.com/user-attachments/assets/6ffb60d3-5e3d-4b46-a0be-fdf719f77282" />
 
 
 
