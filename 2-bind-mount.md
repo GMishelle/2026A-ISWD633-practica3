@@ -41,6 +41,7 @@ Se muestra el template web descargado, en este caso el que se muestra en la imag
 docker rm -f nginx-bind
 
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+
+Aunque se vuelva a crear el contenedor, la plantilla continúa mostrándose porque los archivos realmente no estaban dentro de él, sino en el directorio del host. Al reutilizarse ese mismo *bind mount*, se monta nuevamente la misma carpeta, por lo que Nginx sigue sirviendo exactamente el mismo contenido.
 
 
