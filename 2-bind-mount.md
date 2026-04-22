@@ -31,7 +31,11 @@ El *index.html* que venía dentro del contenedor deja de intervenir, debido a qu
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+
+Se muestra el template web descargado, en este caso el que se muestra en la imagen: 
+
+<img width="1365" height="730" alt="image" src="https://github.com/user-attachments/assets/2c7dab77-d43e-4a59-b7b5-14b1ffaac533" />
+
 
 ### Eliminar el contenedor
 # COMPLETAR CON EL COMANDO
