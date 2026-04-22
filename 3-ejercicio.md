@@ -31,11 +31,14 @@ En el esquema del ejercicio la carpeta del contenedor (b) es /var/www/html.
 Ruta carpeta host: .../ejercicio3/www
 
 ### Crear un contenedor con la imagen wordpress en la red net-wp, configurar las variables de entorno WORDPRESS_DB_HOST, WORDPRESS_DB_USER, WORDPRESS_DB_PASSWORD y WORDPRESS_DB_NAME (los valores de estas variables corresponden a los del contenedor creado previamente)
-# COMPLETAR CON EL COMANDO
+
+docker run -d --name wordpress-wp --network net-wp -p 9500:80 -v ${PWD}\www:/var/www/html -e WORDPRESS_DB_HOST=mysql-wp:3306 -e WORDPRESS_DB_USER=wpuser -e WORDPRESS_DB_PASSWORD=wp123 -e WORDPRESS_DB_NAME=wordpress wordpress
 
 ### Personalizar la apariencia de wordpress y agregar una entrada
 
+<img width="1362" height="725" alt="image" src="https://github.com/user-attachments/assets/678c02df-856b-4918-9dac-17ceae23e357" />
+
+
 ### Eliminar el contenedor y crearlo nuevamente, ¿qué ha sucedido?
 
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA 
-
+Aunque el contenedor se elimine y se cree otra vez, los datos siguen intactos. Esto se debe a que tanto WordPress como MySQL guardan su información en directorios del host mediante db y www. Al no depender del contenedor en sí, esos datos no se borran cuando este desaparece.
